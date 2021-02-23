@@ -23,7 +23,7 @@
   <header>
 
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="img/lama.png" height="30" alt="" loading="lazy" />
@@ -65,7 +65,7 @@
     <!-- Background image -->
 
   </header>
-  <nav class="navbar sticky-top navbar-dark bg-dark text-white">
+  <nav class="navbar sticky-top navbar-dark bg-dark text-white"  >
     <div class="container text-white">
       <nav aria-label="breadcrumb ">
         <ol class="breadcrumb">
@@ -305,11 +305,11 @@
     <hr>
     <div class="container text-center">
       <a name="contactanos"></a>
-      <div class="d-flex justify-content-center align-items-center h-100">
+      <div class=" justify-content-center align-items-center h-100">
         <div class="text-dark">
           <h3 class="mb-3">
             Contactanos</h3>
-          <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+          <form  id="contactForm" name="contactForm" class="contactForm">
             <div class="row">
               <div class="form-group">
                 <label class="label" for="name">Apellidos y Nombres</label>
@@ -335,9 +335,10 @@
                   placeholder="Mensaje"></textarea>
               </div>
             </div>
+            <br>
             <div class="col-md-12">
               <div class="form-group">
-                <input type="submit" value="Enviar mensaje" class="btn btn-dark">
+                <input type="button" value="Enviar mensaje" class="btn btn-dark">
                 <div class="submitting"></div>
               </div>
             </div>
